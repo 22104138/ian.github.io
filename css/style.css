@@ -1,0 +1,347 @@
+html, body{
+    margin: 0%;
+    overflow-x: hidden;
+}
+h2, p, img {
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+p{
+    color:#EBF5EE;
+    font-family: Roboto, helvetica;
+    font-weight: 300;
+}
+h1, h2, h3, h4{
+    color:#EBF5EE;
+    font-family: inter, helvetica;
+    letter-spacing: 2px;
+}
+
+.portfolios h2{
+    text-align: center;
+    font-size: 50px;
+}
+#div-intro{
+    float:left; 
+    width: 100vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: black;
+}
+
+.gwapito-title{
+    font-family: Inter, helvetica;
+    font-weight: 840;
+    font-size: 62px;
+    letter-spacing: 5px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+#div-intro img{
+    float:right;
+    margin-left: 32px;
+    background-color: black;
+    height: 550px;
+    max-width: 100%;
+}
+
+#div-content{
+    margin-left: 60px;
+    margin-top:20px;
+    float: left;
+    width:500px;
+    p{
+        line-height: 1.5;
+        letter-spacing: 2px;
+        width: 420px;
+        font-size: 20px;
+    }
+}
+
+#top-banner{
+    position: relative;
+    height:40px;
+    background-color:#EBF5EE;
+    margin-bottom: 0px;
+    width: 100vw;
+    #line{
+        background-color: black;
+        height: 25px;
+        width: 2px;
+        float:left;
+        margin-top:9px;
+        margin-left:15px;
+    }
+    p{
+        float:left;
+        color: #331E36;
+        margin-left: 15px;
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+    #home{
+        color: black;
+        background-color: transparent;
+        border: transparent;
+        height:40px;
+        width:130px;
+        float:left;
+        font-family: roboto, helvetica;
+        font-size:20px;
+        font-weight: 350;
+        float: right;
+        margin-right: 40px;
+        padding-top: 7px;
+        text-align: center;
+        transition: color 0.3s ease, background-color 0.4s ease;
+    }
+    #portfolios{
+        color: black;
+        background-color: transparent;
+        border: transparent;
+        height:40px;
+        width:130px;
+        font-family: roboto, helvetica;
+        font-size:20px;
+        font-weight: 350;
+        float: right;
+        margin-right: 40px;
+        padding-top: 7px;
+        text-align: center;
+        transition: color 0.3s ease, background-color 0.4s ease;
+    }
+    #portfolios-content{
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
+        height: 275px;
+        margin-top: 15px;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        transition: opacity 0.4s ease;
+        text-decoration: none;
+    }
+    #portfolios:hover #portfolios-content{
+        opacity: 100;
+        display: flex;
+        flex-direction: column;
+        background-color: #331e36;
+    }
+    #portfolios a[href]{
+        color: #EBF5EE;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    #references{
+        color: black;
+        background-color: transparent;
+        border: transparent;
+        height:40px;
+        width:130px;
+        float:left;
+        font-family: roboto, helvetica;
+        font-size:20px;
+        font-weight: 350;
+        float: right;
+        margin-right: 40px;
+        padding-top: 7px;
+        text-align: center;
+        transition: color 0.3s ease, background-color 0.4s ease;
+    }
+    #me{
+        color: black;
+        background-color: transparent;
+        border: transparent;
+        height:40px;
+        width:130px;
+        float:left;
+        font-family: roboto, helvetica;
+        font-size:20px;
+        font-weight: 350;
+        float: right;
+        margin-right: 60px;
+        padding-top: 7px;
+        text-align: center;
+        transition: color 0.5s ease, background-color 0.4s ease;
+    }
+    #me:hover{
+        background-color: #331E36;
+        color: #EBF5EE;
+    }
+    #references:hover{
+        background-color: #331E36;
+        color: #EBF5EE;
+    }
+    #portfolios:hover{
+        background-color: #331E36;
+        color: #EBF5EE;
+    }
+    #home:hover{
+        background-color: #331E36;
+        color: #EBF5EE;
+    }
+}
+
+#line2{
+    clear: both;
+    width: 100vw;
+    margin-top: 0px;
+}
+#gwapito-top{
+    font-size:28px;
+    font-family: Oswald, helvetica;
+    font-weight: 800;
+    margin-left: 23px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    float:left;
+}
+
+#welcome-text{
+    font-family:Inter, helvetica;
+    clear:none;
+    margin-bottom: 0px;
+    margin-top: 55px;
+    letter-spacing: 1px;
+}
+
+.portfolios{
+    h2{
+        font-family: roboto, helvetica;
+        font-weight: 350;
+        font-size: 50px;
+        color: #EBF5EE;
+        margin-top:40px;
+    }
+}
+.portfolios > p{
+    text-align:center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 23px;
+}
+
+.portLeft{
+    margin-right: 20px;
+    float: left;
+}
+.portSect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:80px;
+}
+
+.port1{
+    margin-bottom: 30px;
+    background-color: #41337A;
+    height:300px;
+    width:700px;
+    border-radius: 30px;
+    transition: background-color 0.7s ease, transform 0.5s ease-out;
+    h3{
+        float: right;
+        font-size: 50px;
+        margin-bottom:0px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 20px;
+        width:350px;
+        clear: right;
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: 305px;
+    }
+    img{
+        height:270px;
+        width: 270px;
+        margin-top: 12px;
+        margin-left: 12px;
+        float:left;
+        object-fit: cover;
+        border: 3px solid #BFD1E5;
+        border-radius: 100%;
+    }
+}
+
+.port1:hover{
+    background-color: black;
+    transform: scale(1.02);
+}
+.portRight{
+    margin-left: 0px;
+    margin-right:0px;
+}
+.port2{
+    margin-bottom: 30px;
+    background-color: #41337A;
+    height:300px;
+    width:700px;
+    border-radius: 30px;
+    transition: background-color 0.7s ease, transform 0.5s ease-out;
+    h3{
+        float: right;
+        font-size: 50px;
+        margin-bottom:0%;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 20px;
+        width:350px;
+        clear: right;
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: 305px;
+    }
+    img{
+        height:270px;
+        width: 270px;
+        margin-top: 12px;
+        margin-left: 12px;
+        float:left;
+        object-fit:cover;
+        border: 3px solid #BFD1E5;
+        border-radius: 100%;
+    }
+}
+.port2:hover{
+    background-color: black;
+    transform: scale(1.02);
+}
+
+#bot-banner{
+    clear:both;
+    background-image: url(/Images/IntroPics/gigachad.jpg);
+    background-position: 60px 900px;
+    height:300px;
+    h6{
+        color:#EBF5EE;
+        font-family: Oswald, helvetica;
+        font-size: 100px;
+        font-weight: 900;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    div{
+        float:left;
+        height:1px;
+        background-color: #EBF5EE;
+        width:700px;
+        margin-left: 400px;
+    }
+    #bot-phrase{
+        text-align: center;
+        margin-top: 15px;
+    }
+    #bot-line{
+        width:650px;
+    }
+}

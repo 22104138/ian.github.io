@@ -1,0 +1,218 @@
+body {
+  margin: 0%;
+  overflow-x: hidden;
+}
+p {
+  font-family: roboto;
+}
+#top-banner {
+  position: relative;
+  height: 40px;
+  background-color: #ebf5ee;
+  margin-bottom: 0px;
+  width: 100vw;
+  #line {
+    background-color: black;
+    height: 25px;
+    width: 2px;
+    float: left;
+    margin-top: 9px;
+    margin-left: 15px;
+  }
+  p {
+    float: left;
+    color: #331e36;
+    margin-left: 15px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+  }
+  #home {
+    color: black;
+    background-color: transparent;
+    border: transparent;
+    height: 40px;
+    width: 130px;
+    float: left;
+    font-family: roboto, helvetica;
+    font-size: 20px;
+    font-weight: 350;
+    float: right;
+    margin-right: 40px;
+    padding-top: 7px;
+    text-align: center;
+    transition: color 0.3s ease, background-color 0.5s ease;
+  }
+  #portfolios {
+    color: black;
+    background-color: transparent;
+    border: transparent;
+    height: 40px;
+    width: 130px;
+    font-family: roboto, helvetica;
+    font-size: 20px;
+    font-weight: 350;
+    float: right;
+    margin-right: 40px;
+    padding-top: 7px;
+    text-align: center;
+    transition: color 0.3s ease, background-color 0.5s ease;
+  }
+  #portfolios-content {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    height: 275px;
+    margin-top: 15px;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+  }
+  #portfolios:hover #portfolios-content {
+    opacity: 100;
+    display: flex;
+    flex-direction: column;
+    background-color: #331e36;
+  }
+  #portfolios a[href] {
+    color: #ebf5ee;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  #references {
+    color: black;
+    background-color: transparent;
+    border: transparent;
+    height: 40px;
+    width: 130px;
+    float: left;
+    font-family: roboto, helvetica;
+    font-size: 20px;
+    font-weight: 350;
+    float: right;
+    margin-right: 40px;
+    padding-top: 7px;
+    text-align: center;
+    transition: color 0.3s ease, background-color 0.5s ease;
+  }
+  #me {
+    color: black;
+    background-color: transparent;
+    border: transparent;
+    height: 40px;
+    width: 130px;
+    float: left;
+    font-family: roboto, helvetica;
+    font-size: 20px;
+    font-weight: 350;
+    float: right;
+    margin-right: 60px;
+    padding-top: 7px;
+    text-align: center;
+    transition: color 0.5s ease, background-color 0.5s ease;
+  }
+  #me:hover {
+    background-color: #331e36;
+    color: #ebf5ee;
+  }
+  #references:hover {
+    background-color: #331e36;
+    color: #ebf5ee;
+  }
+  #portfolios:hover {
+    background-color: #331e36;
+    color: #ebf5ee;
+  }
+  #home:hover {
+    background-color: #331e36;
+    color: #ebf5ee;
+  }
+}
+
+#gwapito-top {
+  font-size: 28px;
+  font-family: Oswald, helvetica;
+  font-weight: 800;
+  margin-left: 23px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #ebf5ee;
+  font-family: inter, helvetica;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+p {
+  color: #ebf5ee;
+  font-family: Roboto, helvetica;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.deets {
+  display: flex;
+  gap: 1120px;
+  width: 100%;
+  #top-email {
+    direction: rtl;
+  }
+}
+.aboutme {
+  margin-top: 0px;
+  margin-bottom: 0%;
+  img {
+    margin-top: 10px;
+    width: 32.7vw;
+    height: 100vh;
+    object-fit: cover;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+  }
+  h4 {
+    font-size: 20px;
+    width: 99.5vw;
+    text-align: center;
+    margin-top: 0%;
+  }
+}
+.likes {
+  display: flex;
+  flex-direction: row;
+  margin-left: 173px;
+  margin-top: 0px;
+  gap: 24.3vw;
+  text-align: center;
+}
+#likes-text {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 50px;
+  letter-spacing: 1.3px;
+  height: 500px;
+  p {
+    font-size: 20px;
+    text-align: justify;
+  }
+}
+
+.div-pic {
+  float: left;
+  margin-bottom: 50px;
+}
+.div-text {
+  float: left;
+  width: 700px;
+  margin-top: 50px;
+  h2 {
+    width: 95vw;
+    margin: auto;
+    text-align: center;
+  }
+}
